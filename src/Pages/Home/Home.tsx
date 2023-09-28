@@ -2,26 +2,29 @@ import React, { useState, useEffect } from 'react'; // Import React and necessar
 
 import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
+import ProductIntro from '../../Components/ProductIntro/ProductIntro';
 
-type Props = {}
+type Props = {};
 
 const Home = (props: Props) => {
-  const [showHeader, setShowHeader] = useState(false); // State to track whether to show the header
+  const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
-    // Use setTimeout to toggle the showHeader state after 3000 milliseconds (3 seconds)
     const timeoutId = setTimeout(() => {
-      setShowHeader(true);
+      setShowContent(true);
     }, 3000);
-
-    // Clean up the timeout when the component unmounts
     return () => clearTimeout(timeoutId);
-  }, []); // Empty dependency array ensures this effect runs once on component mount
+  }, []);
 
   return (
-    <div className='bg-light-beige'>
-      <Navbar />
-      {showHeader && <Header />} {/* Render the Header conditionally based on showHeader state */}
+    <div>
+      <div className='bg-light-beige'>
+        <Navbar />
+        {showContent && <Header />}
+      </div>
+      <div>
+        {showContent && <ProductIntro/>}
+      </div>
     </div>
   );
 }

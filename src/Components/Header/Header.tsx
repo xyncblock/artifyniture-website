@@ -26,7 +26,7 @@ const Header = () => {
             className="main-header-text text-dark-brown text-7xl font-extrabold font-inter tracking-[3.20px] flex flex-col items-start max-w-max"
           >
             <div>Experience</div>
-            <div>the Artistry</div>
+            <div className="max-w-max">the Artistry</div>
             <div>
               of <span className="text-grayish-brown">Living</span>
             </div>
