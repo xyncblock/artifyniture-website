@@ -27,7 +27,7 @@ const HighChair = () => {
     hidden: { scale: 0 },
     visible: {
       scale: 1,
-      transition: { duration: 0.7, ease: "easeInOut" },
+      transition: { duration: 0.8, ease: "easeInOut" },
     },
   };
 
