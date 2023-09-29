@@ -6,6 +6,7 @@ import ProductIntro from '../../Components/ProductIntro/ProductIntro';
 import Table from '../../Components/Table/Table';
 import HighChair from '../../Components/HighChair/HighChair';
 import LowChair from '../../Components/LowChair/LowChair';
+import Testimonials from '../../Components/Testimonial/Testimonial';
 
 type Props = {};
 
@@ -30,6 +31,7 @@ const Home = (props: Props) => {
         {showContent && <Table/>}
         {showContent && <HighChair/>}
         {showContent && <LowChair/>}
+        {showContent && <Testimonials/>}
       </div>
     </div>
   );
