@@ -7,6 +7,7 @@ import Table from '../../Components/Table/Table';
 import HighChair from '../../Components/HighChair/HighChair';
 import LowChair from '../../Components/LowChair/LowChair';
 import Testimonials from '../../Components/Testimonial/Testimonial';
+import Footer from '../../Components/Footer/Footer';
 
 type Props = {};
 
@@ -32,6 +33,7 @@ const Home = (props: Props) => {
         {showContent && <HighChair/>}
         {showContent && <LowChair/>}
         {showContent && <Testimonials/>}
+        {showContent && <Footer/>}
       </div>
     </div>
   );
