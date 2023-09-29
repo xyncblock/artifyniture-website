@@ -3,6 +3,9 @@ import React, { useState, useEffect } from 'react'; // Import React and necessar
 import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import ProductIntro from '../../Components/ProductIntro/ProductIntro';
+import Table from '../../Components/Table/Table';
+import HighChair from '../../Components/HighChair/HighChair';
+import LowChair from '../../Components/LowChair/LowChair';
 
 type Props = {};
 
@@ -24,6 +27,9 @@ const Home = (props: Props) => {
       </div>
       <div>
         {showContent && <ProductIntro/>}
+        {showContent && <Table/>}
+        {showContent && <HighChair/>}
+        {showContent && <LowChair/>}
       </div>
     </div>
   );
