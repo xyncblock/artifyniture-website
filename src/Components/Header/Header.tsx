@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Header = () => {
   return (
     <header className="header bg-light-beige h-[90vh] flex flex-row items-center justify-between gap-24">
-      <div className="header-text w-1/2 text-right ">
+      <div className="header-text w-1/2 text-right whitespace-nowrap">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
