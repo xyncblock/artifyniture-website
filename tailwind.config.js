@@ -23,7 +23,7 @@ module.exports = {
         k2d: ["K2D", "serif"],
         khula: ["Khula", "sans-serif"],
         bebasneue: ["Bebas Neue", "sans-serif"],
-      }
+      },
     },
   },
   plugins: [],
