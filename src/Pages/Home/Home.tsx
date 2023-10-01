@@ -20,8 +20,8 @@ const Home = () => {
         <Table />
         <HighChair />
         <LowChair />
-        {/* <Testimonials />
-        <Footer />  */}
+        <Testimonials />
+        <Footer />
       </div>
     </div>
   );
