@@ -1,12 +1,12 @@
 const Header = () => {
   return (
-    <div className="main-section flex flex-col items-center justify-between w-full h=[100vh]">
+    <div className="main-section flex flex-col items-center justify-between w-full h=[100vh] bg-light-beige">
       <nav className="logo-section flex items-center justify-center w-5/6 mx-auto py-4 md:py-8 h-[10vh]">
         <div className="logo text-dark-brown font-normal font-k2d tracking-widest text-base sm:text-lg md:text-xl">
           ARTIFYNITURE
         </div>
       </nav>
-      <header className="header bg-light-beige flex flex-col-reverse items-center justify-between sm:flex-row w-5/6 h-[90vh]">
+      <header className="header  flex flex-col-reverse items-center justify-between sm:flex-row w-5/6 h-[90vh]">
         <div className="header-text flex flex-col items-center justify-center h-1/2 sm:w-1/2 sm:h-full">
           <div className="text">
             <div 

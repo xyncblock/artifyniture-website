@@ -14,10 +14,10 @@ const Home = () => {
 
   return (
     <div>
-      <div className="bg-light-beige">
+      <div >
         <Header />
-        {/* <ProductIntro />
-        <Table />
+        <ProductIntro />
+        {/*<Table />
         <HighChair />
         <LowChair />
         <Testimonials />
