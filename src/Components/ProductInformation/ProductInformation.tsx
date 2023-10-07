@@ -21,7 +21,7 @@ const ProductInformation = () => {
       </div>
 
       <div className="text 
-        py-12
+        pb-12
         sm:w-1/2  sm:py-0
         ">
         <div
