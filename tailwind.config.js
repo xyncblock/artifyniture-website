@@ -5,9 +5,17 @@ module.exports = {
     "./public/**/*.{png,jpg}"
   ],
   theme: {
+    screens: {
+      'xs': '475px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
-        "light-beige": "#F5EEE8",
+        "light-beige": "#F5F4F0",
         "dark-brown": "#3A3531",
         "grayish-brown": "#988E85",
         "light-gray": "#979591",
