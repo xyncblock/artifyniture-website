@@ -107,7 +107,7 @@ const ProductInformation = () => {
         </div>
 
       </div>
-      <div className="image items-end
+      <div className="image items-end flex justify-end
         sm:w-1/2 ">
         <img src="./Assets/highChair.png" alt="" className="object-contain" />
       </div>
