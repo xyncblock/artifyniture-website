@@ -2,14 +2,15 @@
 
 const ProductInformation = () => {
   return (
-    <section className="main-section flex flex-col 
+    <section className="main-section flex flex-col 2xl:justify-center 2xl:items-center
       gap-6 py-6
       sm:gap-8 sm:py-8
       md:gap-10 md:py-10
       lg:gap-11 lg:py-11
       xl:gap-13 xl:py-13
+
       "> 
-      <div className="table-main flex  items-center justify-between w-full   
+      <div className="table-main flex  items-center justify-between w-full       2xl:max-w-[1440px]   
       flex-col-reverse px-6
       sm:flex-row  sm:px-8 
       md:px-10
@@ -60,7 +61,7 @@ const ProductInformation = () => {
         </div>
       </div>
       </div>
-      <div className="table-main flex  items-center justify-between w-full   
+      <div className="table-main flex  items-center justify-between w-full       2xl:max-w-[1440px]   
       flex-col px-6
       sm:flex-row  sm:px-8 
       md:px-10
@@ -112,7 +113,7 @@ const ProductInformation = () => {
         <img src="./Assets/highChair.png" alt="" className="object-contain" />
       </div>
       </div>
-      <div className="table-main flex  items-center justify-between w-full   
+      <div className="table-main flex  items-center justify-between w-full        2xl:max-w-[1440px]  
       flex-col-reverse px-6
       sm:flex-row  sm:px-8 
       md:px-10
