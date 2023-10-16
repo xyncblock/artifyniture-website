@@ -216,7 +216,7 @@ const ProductInformation = () => {
         sm:w-1/2 "
         variants={imageVariants}
         >
-          <img src="./Assets/lowchair.png" alt="" className="object-contain" />
+          <img src="./Assets/lowChair.png" alt="" className="object-contain" />
         </motion.div>
 
         <div
