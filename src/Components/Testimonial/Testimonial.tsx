@@ -61,9 +61,9 @@ const Testimonial = () => {
 
   return (
     <div
-      className="testimonials-container w-full py-10 px-1 pt-14 xl:h-[94vh] items-center flex justify-center 2xl:h-full 
+      className="testimonials-container w-full py-10 px-1 pt-14 xl:h-[94vh] items-center flex justify-center 
       sm:px-4 
-      md:px-8 md:pb-14"
+      md:px-8 md:pb-14 "
     >
       <div className="testimonial-content flex items-center flex-row justify-center px-[5%]">
         <div

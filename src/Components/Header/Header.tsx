@@ -3,21 +3,22 @@ const Header = () => {
 
     <div
       className="main flex h-screen  flex-col bg-light-beige justify-center items-center
-      sm:h-full sm:py-5 lg:h-screen 2xl:h-full "
+      sm:h-full sm:py-5 lg:h-screen"
     >
       <div
         className="navbar text-dark-brown font-normal font-k2d tracking-widest flex justify-center items-center text-center h-[10vh] 
           text-sm
           xs:text-base
           sm:text-base sm:h-full sm:pb-3
-          md:text-xl"
+          lg:p-3 lg:h-[100px] xl:p-4
+          md:text-xl xs:mt-4"
       >
         ARTIFYNITURE
       </div>
 
       <div
         className="content flex flex-col items-center justify-center h-full 
-        sm:flex-row-reverse 2xl:max-w-[1440px] 2xl:w-full "
+        sm:flex-row-reverse xl:max-w-[1440px] xl:w-full  "
       >
         <div
           className="image flex  w-full items-center justify-center
@@ -63,7 +64,7 @@ const Header = () => {
                   sm:text-left sm:text-[2.6rem] leading-[2.7rem] sm:max-w-[17rem]
                   md:text-5xl md:max-w-[20rem] tracking-wide
                   lg:text-[3.1rem] lg:max-w-[25.5rem] lg:leading-[3.4rem]
-                  xl:text-7xl xl:max-w-[28rem] xl:leading-[4.7rem]"
+                  xl:text-7xl xl:max-w-[28rem] xl:leading-[4.8rem]"
             >
               Experience the Artistry of{" "}
               <span className="text-grayish-brown">Living</span>
