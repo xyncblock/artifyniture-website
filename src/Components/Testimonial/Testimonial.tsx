@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { FaQuoteLeft, FaArrowLeft, FaArrowRight} from "react-icons/fa";
+import { FaQuoteLeft} from "react-icons/fa";
 import {FiChevronLeft, FiChevronRight } from "react-icons/fi"
 
 const testimonialsData = [
@@ -49,7 +49,7 @@ const Testimonial = () => {
       );
     }
   };
-
+ 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % testimonialsData.length);
@@ -61,26 +61,26 @@ const Testimonial = () => {
 
   return (
     <div
-      className="testimonials-container w-full py-10 px-1 pt-14 xl:h-[94vh] items-center flex justify-center 
+      className="testimonials-container w-full py-10 px-1 pt-14 items-center flex justify-center 
       sm:px-4 
-      md:px-8 md:pb-14 "
+      md:px-8 md:pb-14
+      xl:h-[94vh] "
     >
       <div className="testimonial-content flex items-center flex-row justify-center px-[5%]">
         <div
-          className="arrow-left cursor-pointer rounded-full hover:bg-gray-300 hidden sm:block
-        p-2 mr-6"
+          className="arrow-left cursor-pointer rounded-full hover:bg-gray-300 hidden p-2 mr-6
+          sm:block "
           onClick={() => handleArrowClick("left")}
         >
           <FiChevronLeft />
         </div>
         <div
           className="container flex flex-col 
-          sm:gap-10 sm:flex-row
-          md:gap-16   "
+          sm:flex-row backdrop:sm:gap-10 
+          md:gap-16  "
         >
           <div
-            className="testimonial-image flex justify-center 
-            pb-14 
+            className="testimonial-image flex justify-center pb-14 
             sm:pb-0 sm:w-2/6 sm:justify-end"
           >
             <img

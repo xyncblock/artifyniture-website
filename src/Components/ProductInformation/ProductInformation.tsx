@@ -66,48 +66,43 @@ const ProductInformation = () => {
       "
     >
       <motion.div
-        className="table-main flex  items-center justify-between w-full       2xl:max-w-[1440px]   
-      flex-col-reverse px-6
-      sm:flex-row  sm:px-8 
-      md:px-10
-      xl:px-12
-      "
+        className="table-main flex  items-center justify-between w-full flex-col-reverse px-6
+          sm:flex-row  sm:px-8 
+          md:px-10
+          xl:px-12
+          2xl:max-w-[1440px] "
         initial="hidden"
         ref={ref1}
         animate={controls1}
       >
         <motion.div
-          className="table-image 
-        sm:w-1/2 "
+          className="table-image sm:w-1/2 "
           variants={imageVariants}
         >
           <img src="./Assets/table.png" alt="" className="object-contain" />
         </motion.div>
 
         <div
-          className="table-text 
-        pb-12
-        sm:w-1/2  sm:py-0
-        "
+          className="table-text pb-12
+            sm:w-1/2 sm:py-0 "
         >
           <motion.div
             className="table-sub-title text-grayish-brown font-bold font-inter tracking-widest 
-          text-base 
-          sm:text-lg
-          lg:text-xl
-          xl:text-2xl
-          "
+              text-base 
+              sm:text-lg
+              lg:text-xl
+              xl:text-2xl "
             variants={textVariants}
           >
             The Table
           </motion.div>
           <motion.div
             className="table-main-title text-dark-brown font-extrabold font-inter 
-          text-[1.7rem] leading-[1.7rem] mb-2
-          sm:text-3xl  sm:mb-3 sm:leading-6
-          md:text-4xl  md:leading-[2rem] 
-          lg:text-5xl lg:leading-10 lg:mb-4
-          xl:text-6xl  xl:leading-[3.2rem] xl:mb-5
+              text-[1.7rem] leading-[1.7rem] mb-2
+              sm:text-3xl  sm:mb-3 sm:leading-6
+              md:text-4xl  md:leading-[2rem] 
+              lg:text-5xl lg:leading-10 lg:mb-4
+              xl:text-6xl  xl:leading-[3.2rem] xl:mb-5
           "
             variants={textVariants}
           >
@@ -115,11 +110,11 @@ const ProductInformation = () => {
           </motion.div>
           <motion.div
             className="table-description text-dark-gray font-normal font-inter
-          text-sm max-w-[21rem] leading-tight
-          sm:text-[0.85rem] sm:leading-4 sm:max-w-[20rem] 
-          md:text-base md:leading-5 md:max-w-[21rem]
-          lg:text-lg lg:leading-6 lg:max-w-[28rem]
-          xl:text-xl xl:leading-7 xl:max-w-[36rem]
+              text-sm max-w-[21rem] leading-tight
+              sm:text-[0.85rem] sm:leading-4 sm:max-w-[20rem] 
+              md:text-base md:leading-5 md:max-w-[21rem]
+              lg:text-lg lg:leading-6 lg:max-w-[28rem]
+              xl:text-xl xl:leading-7 xl:max-w-[36rem]
           "
             variants={textVariants}
           >
@@ -133,23 +128,26 @@ const ProductInformation = () => {
         </div>
       </motion.div>
       <motion.div
-        className="chair-main flex  items-center justify-between w-full       2xl:max-w-[1440px]   
-      flex-col px-6
-      sm:flex-row  sm:px-8 
-      md:px-10
-      xl:px-12
-      "
+        className="chair-main flex  items-center justify-between w-full          
+          flex-col px-6
+          sm:flex-row  sm:px-8 
+          md:px-10
+          xl:px-12
+          2xl:max-w-[1440px] "
         initial="hidden"
         ref={ref2}
         animate={controls2}
       >
         <div
-          className="chair-text flex  flex-col sm:items-end
-        py-12
-        sm:w-1/2  sm:py-0
+          className="chair-text flex  flex-col py-12
+          sm:items-end sm:w-1/2  sm:py-0
         "
         >
-          <div className="chair-content sm:w-[18rem] md:w-[21.5rem] lg:w-[29.5rem] xl:w-[37rem]">
+          <div className="chair-content 
+            sm:w-[18rem] 
+            md:w-[21.5rem] 
+            lg:w-[29.5rem] 
+            xl:w-[37rem]">
             <motion.div
               className="chair-sub-title text-grayish-brown font-bold font-inter tracking-widest 
                 text-base 
@@ -163,11 +161,11 @@ const ProductInformation = () => {
             </motion.div>
             <motion.div
               className="chair-main-title text-dark-brown font-extrabold font-inter 
-          text-[1.7rem] leading-[1.7rem] mb-2
-          sm:text-3xl  sm:mb-3 sm:leading-6
-          md:text-4xl  md:leading-[2rem] 
-          lg:text-5xl lg:leading-10 lg:mb-4
-          xl:text-6xl  xl:leading-[3.2rem] xl:mb-5
+                text-[1.7rem] leading-[1.7rem] mb-2
+                sm:text-3xl  sm:mb-3 sm:leading-6
+                md:text-4xl  md:leading-[2rem] 
+                lg:text-5xl lg:leading-10 lg:mb-4
+                xl:text-6xl  xl:leading-[3.2rem] xl:mb-5
           "
               variants={textVariants}
             >
@@ -175,11 +173,11 @@ const ProductInformation = () => {
             </motion.div>
             <motion.div
               className="chair-description text-dark-gray font-normal font-inter
-              text-sm max-w-[21rem] leading-tight
-              sm:text-[0.85rem] sm:leading-4 sm:max-w-[20rem] 
-              md:text-base md:leading-5 md:max-w-[21rem]
-              lg:text-lg lg:leading-6 lg:max-w-[28rem]
-              xl:text-xl xl:leading-7 xl:max-w-[36rem]
+                text-sm max-w-[21rem] leading-tight
+                sm:text-[0.85rem] sm:leading-4 sm:max-w-[20rem] 
+                md:text-base md:leading-5 md:max-w-[21rem]
+                lg:text-lg lg:leading-6 lg:max-w-[28rem]
+                xl:text-xl xl:leading-7 xl:max-w-[36rem]
           "
               variants={textVariants}
             >
@@ -194,7 +192,7 @@ const ProductInformation = () => {
         </div>
         <motion.div
           className="chair-image items-end flex justify-end
-        sm:w-1/2 "
+            sm:w-1/2 "
           variants={imageVariants}
         >
           <img src="./Assets/highChair.png" alt="" className="object-contain" />
@@ -202,10 +200,10 @@ const ProductInformation = () => {
       </motion.div>
       <motion.div
         className="high-chair-main flex  items-center justify-between w-full        2xl:max-w-[1440px]  
-      flex-col-reverse px-6
-      sm:flex-row  sm:px-8 
-      md:px-10
-      xl:px-12
+          flex-col-reverse px-6
+          sm:flex-row  sm:px-8 
+          md:px-10
+          xl:px-12
       "
         initial="hidden"
         ref={ref3}
@@ -221,16 +219,16 @@ const ProductInformation = () => {
 
         <div
           className="high-chair-text 
-        py-12
-        sm:w-1/2  sm:py-0
+            py-12
+            sm:w-1/2  sm:py-0
         "
         >
           <motion.div
             className="high-chair-sub-title text-grayish-brown font-bold font-inter tracking-widest 
-          text-base 
-          sm:text-lg
-          lg:text-xl
-          xl:text-2xl
+              text-base 
+              sm:text-lg
+              lg:text-xl
+              xl:text-2xl
           "
             variants={textVariants}
           >
@@ -238,11 +236,11 @@ const ProductInformation = () => {
           </motion.div>
           <motion.div
             className="high-chair-main-title text-dark-brown font-extrabold font-inter 
-          text-[1.7rem] leading-[1.7rem] mb-2
-          sm:text-3xl  sm:mb-3 sm:leading-6
-          md:text-4xl  md:leading-[2rem] 
-          lg:text-5xl lg:leading-10 lg:mb-4
-          xl:text-6xl  xl:leading-[3.2rem] xl:mb-5
+              text-[1.7rem] leading-[1.7rem] mb-2
+              sm:text-3xl  sm:mb-3 sm:leading-6
+              md:text-4xl  md:leading-[2rem] 
+              lg:text-5xl lg:leading-10 lg:mb-4
+              xl:text-6xl  xl:leading-[3.2rem] xl:mb-5
           "
             variants={textVariants}
           >
@@ -250,11 +248,11 @@ const ProductInformation = () => {
           </motion.div>
           <motion.div
             className="high-chair-description text-dark-gray font-normal font-inter
-          text-sm max-w-[21rem] leading-tight
-          sm:text-[0.85rem] sm:leading-4 sm:max-w-[20rem] 
-          md:text-base md:leading-5 md:max-w-[21rem]
-          lg:text-lg lg:leading-6 lg:max-w-[28rem]
-          xl:text-xl xl:leading-7 xl:max-w-[36rem]
+              text-sm max-w-[21rem] leading-tight
+              sm:text-[0.85rem] sm:leading-4 sm:max-w-[20rem] 
+              md:text-base md:leading-5 md:max-w-[21rem]
+              lg:text-lg lg:leading-6 lg:max-w-[28rem]
+              xl:text-xl xl:leading-7 xl:max-w-[36rem]
           "
             variants={textVariants}
           >
